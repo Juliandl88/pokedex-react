@@ -19,11 +19,11 @@ const Searchbar = () => {
     }
 
     return (
-        <div className="serchbar-container">
-            <div className="serchbar">
+        <div className="searchbar-container">
+            <div className="searchbar">
                 <input type="text" placeholder="Buscar Pokemon..." onChange={onChange} />
             </div>
-            <div className="serchbar-btn">
+            <div className="searchbar-btn">
                 <button onClick={onClick}>Buscar</button>
             </div>
             <div>
