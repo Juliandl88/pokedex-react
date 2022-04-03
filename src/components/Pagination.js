@@ -1,5 +1,5 @@
 import React from "react";
-import { LeftArrow, RightArrow } from "./ArrowsSvg";
+import { LeftArrow, RightArrow } from "./ArrowSvg";
 
 const Pagination = (props) => {
   const { onLeftClick, onRightClick, page, totalPages } = props;
@@ -10,7 +10,7 @@ const Pagination = (props) => {
         <div className="icon">
           <LeftArrow />
         </div>
-      </button> 
+      </button>
       <div>
         {page} de {totalPages}
       </div>
@@ -24,3 +24,4 @@ const Pagination = (props) => {
 };
 
 export default Pagination;
+
