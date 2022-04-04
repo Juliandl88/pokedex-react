@@ -22,7 +22,7 @@ const Searchbar = (props) => {
         <input placeholder="Buscar pokemon..." onChange={onChange} />
       </div>
       <div className="searchbar-btn">
-        <button onClick={onClick}>Buscar</button>
+        <button onClick={onClick}>Buscar pokemon</button>
       </div>
     </div>
   );
